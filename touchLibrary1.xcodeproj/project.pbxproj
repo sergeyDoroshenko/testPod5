@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A61453921F9185C400188EE7 /* touchLibrary1.h in Headers */ = {isa = PBXBuildFile; fileRef = A61453901F9185C400188EE7 /* touchLibrary1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A614539B1F918E1200188EE7 /* SDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A61453991F918E1200188EE7 /* SDViewController.h */; };
+		A614539C1F918E1200188EE7 /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614539A1F918E1200188EE7 /* SDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A614538D1F9185C400188EE7 /* touchLibrary1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = touchLibrary1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61453901F9185C400188EE7 /* touchLibrary1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = touchLibrary1.h; sourceTree = "<group>"; };
 		A61453911F9185C400188EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61453991F918E1200188EE7 /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
+		A614539A1F918E1200188EE7 /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				A61453901F9185C400188EE7 /* touchLibrary1.h */,
 				A61453911F9185C400188EE7 /* Info.plist */,
+				A61453991F918E1200188EE7 /* SDViewController.h */,
+				A614539A1F918E1200188EE7 /* SDViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -67,6 +73,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A614539B1F918E1200188EE7 /* SDViewController.h in Headers */,
 				A61453921F9185C400188EE7 /* touchLibrary1.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A614539C1F918E1200188EE7 /* SDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
